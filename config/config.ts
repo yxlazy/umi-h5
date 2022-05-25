@@ -8,6 +8,10 @@ export default defineConfig({
     type: 'none',
   },
   title: 'umi-h5',
+  cssLoader: {
+    localsConvention: 'camelCase',
+  },
+  hash: true,
   fastRefresh: {},
   antd: false,
   routes,
