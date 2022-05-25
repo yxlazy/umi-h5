@@ -11,7 +11,9 @@ export default defineConfig({
   antd: false,
   routes,
   proxy,
-  dynamicImport: {},
+  dynamicImport: {
+    loading: '@/components/Loading',
+  },
   extraPostCSSPlugins: [
     px2vw({
       unitToConvert: 'px',
