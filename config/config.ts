@@ -1,5 +1,6 @@
 import { defineConfig } from 'umi';
 import routes from './routes';
+import proxy from './proxy';
 import px2vw from 'postcss-px-to-viewport';
 
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
   fastRefresh: {},
   antd: false,
   routes,
+  proxy,
   dynamicImport: {},
   extraPostCSSPlugins: [
     px2vw({
