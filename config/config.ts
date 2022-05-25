@@ -7,6 +7,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
+  title: 'umi-h5',
   fastRefresh: {},
   antd: false,
   routes,
